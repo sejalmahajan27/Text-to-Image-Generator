@@ -12,6 +12,7 @@ const AppContextProvider = (props) => {
   const [credit, setCredit] = useState(0);
 
   const backendurl = import.meta.env.VITE_BACKEND_URL;
+
   const navigate = useNavigate();
 
   const loadCreditsData = async () => {
